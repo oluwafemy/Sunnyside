@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Fraunces', serif; */
+}
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    font-size: 19px;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;  
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.beautify{
+    background-color: white;
+    color: hsl(212, 27%, 19%);
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+h1{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.arrow{
+    display: flex;
+    justify-content: center;
+}
+.firstSection{
+    background-image: url(images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 15rem;
+}
+
+
+/* begining of secondsection */
+.container1 h2{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    color: hsl(212, 27%, 19%);
+    
+}
+.container1{
+    background-color: hsl(7,67%,96%);
+    display:flex ;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.secondSection{
+    display: flex;
+}
+.container1 p{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: gray;
+    line-height: 24px;
+}
+
+
+/* begining of thirdSection */
+.thirdSection{
+    display: flex;
+}
+.container2 h2{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    color: hsl(212, 27%, 19%)
+}
+
+.container2{
+    background-color: hsl(7,67%,96%);
+    display:flex ;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+.container2 p{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: gray;
+    line-height: 24px;
+}
+
