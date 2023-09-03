@@ -52,7 +52,7 @@ h1{
 }
 
 
-/* begining of secondsection */
+/* beginning of secondsection */
 .container1 h2{
     font-family: 'Fraunces', serif;
     font-size: 2rem;
@@ -76,9 +76,16 @@ h1{
     color: gray;
     line-height: 24px;
 }
+.egg img{
+    float: left;
+
+}
+
+    
 
 
-/* begining of thirdSection */
+
+/* beginning of thirdSection */
 .thirdSection{
     display: flex;
 }
@@ -103,3 +110,28 @@ h1{
     line-height: 24px;
 }
 
+/* beginning of fourthSection */
+.fourthSection{
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-top: 6rem;
+}
+.container3 h2{
+    font-family: 'Fraunces', serif;
+    font-size: 2rem;
+    color: hsl(212, 27%, 19%);
+}
+.container3 p{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: gray;
+    line-height: 24px;
+
+}
+.container3{
+    display:flex ;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 25rem;
+}
