@@ -75,7 +75,7 @@ h1{
  .cherry{
     background-image: url(images/desktop/image-graphic-design.jpg);
     color: hsl(167, 40%, 24%);
-    font-family: 'Fraunces', serif;
+    
     
  }
  .para{
@@ -103,6 +103,7 @@ h1{
 }
 .fruit h2{
     font-family: 'Fraunces', serif;
+    font-weight: 900;
 }
 
 .feedback{
@@ -114,6 +115,7 @@ h1{
     text-align: center;
     text-transform: uppercase;
     font-family: 'Fraunces', serif;
+    font-weight: 900;
     letter-spacing: 0.5rem;
     padding-top: 10rem;
     padding-bottom: 10rem;
