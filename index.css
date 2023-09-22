@@ -74,18 +74,23 @@ h1{
  }
  .cherry{
     background-image: url(images/desktop/image-graphic-design.jpg);
+    color: hsl(167, 40%, 24%);
+    font-family: 'Fraunces', serif;
     
  }
  .para{
     padding-top: 1rem;
     padding-bottom: 1rem;
     line-height: 24px;
+    font-weight: 700;
+       
  }
  .orange{
     background-image: url(images/desktop/image-photography.jpg);
+    color: hsl(198, 62%, 26%);
     
  }
- .fish{
+ .fruit{
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -95,10 +100,43 @@ h1{
     padding-left: 7rem;
     padding-right: 7rem;
     text-align: center;
- }
+}
+.fruit h2{
+    font-family: 'Fraunces', serif;
+}
+
+.feedback{
+    background-color: white;
+}
+
+.feedback h2{
+    color:  hsl(232, 10%, 55%);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 0.5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+}
+/* .feedback img{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    border-radius: 50%;
+} */
+
+
+ /* .style h4{
+    font-family: 'Fraunces', serif;
+    font-size: 25px;
+    font-weight: 700;
+    font-size: 25px;
+ } */
 
 /* beginning of fourthSection */
-.fourthSection{
+/* .fourthSection{
     background-image: url(images/desktop/image-graphic-design.jpg);
     background-repeat: no-repeat;
     background-position: left;
@@ -121,4 +159,4 @@ h1{
     justify-content: center;
     flex-direction: column;
     padding-top: 25rem;
-}
+} */
