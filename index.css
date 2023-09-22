@@ -51,82 +51,69 @@ h1{
     padding-bottom: 15rem;
 }
 
+ .container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ }
 
-/* beginning of secondsection */
-.container1 h2{
-    font-family: 'Fraunces', serif;
-    font-size: 2rem;
-    color: hsl(212, 27%, 19%);
-    
-}
-.container1{
-    background-color: hsl(7,67%,96%);
-    display:flex ;
+ .box{
+    display: flex;
     justify-content: center;
     flex-direction: column;
     padding-left: 6rem;
     padding-right: 6rem;
-}
-.secondSection{
-    display: flex;
-}
-.container1 p{
-    padding-top: 2rem;
+ }
+ .box p{
+    padding-top: 1rem;
     padding-bottom: 1rem;
-    color: gray;
     line-height: 24px;
-}
-.egg img{
-    float: left;
-
-}
-
-    
-
-
-
-/* beginning of thirdSection */
-.thirdSection{
-    display: flex;
-}
-.container2 h2{
+ }
+ .box h2{
     font-family: 'Fraunces', serif;
     font-size: 2rem;
-    color: hsl(212, 27%, 19%)
-}
-
-.container2{
-    background-color: hsl(7,67%,96%);
-    display:flex ;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 6rem;
-    padding-right: 6rem;
-}
-.container2 p{
-    padding-top: 2rem;
+ }
+ .cherry{
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    
+ }
+ .para{
+    padding-top: 1rem;
     padding-bottom: 1rem;
-    color: gray;
     line-height: 24px;
-}
+ }
+ .orange{
+    background-image: url(images/desktop/image-photography.jpg);
+    
+ }
+ .fish{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    text-align: center;
+ }
 
 /* beginning of fourthSection */
 .fourthSection{
     background-image: url(images/desktop/image-graphic-design.jpg);
     background-repeat: no-repeat;
     background-position: left;
-    padding-top: 6rem;
 }
 .container3 h2{
     font-family: 'Fraunces', serif;
     font-size: 2rem;
     color: hsl(212, 27%, 19%);
+    padding: 100px;
+    padding-bottom: 20px;
 }
 .container3 p{
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding: 30px;
     color: gray;
-    line-height: 24px;
+    line-height: 24px
 
 }
 .container3{
