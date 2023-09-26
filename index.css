@@ -79,10 +79,10 @@ h1{
     
  }
  .para{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     line-height: 24px;
-    font-weight: 700;
+    font-size: 20px;
        
  }
  .orange{
@@ -104,23 +104,60 @@ h1{
 .fruit h2{
     font-family: 'Fraunces', serif;
     font-weight: 900;
+    font-size: 2rem;
+  
 }
 
 .feedback{
     background-color: white;
+    padding: 6rem 4rem;
+    text-align: center;
+
 }
 
 .feedback h2{
     color:  hsl(232, 10%, 55%);
-    text-align: center;
     text-transform: uppercase;
     font-family: 'Fraunces', serif;
     font-weight: 900;
     letter-spacing: 0.5rem;
-    padding-top: 10rem;
-    padding-bottom: 10rem;
+    /* padding-top: 10rem;
+    padding-bottom: 10rem; */
+    margin-bottom: 4rem;
 
+}.allfeed{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-bottom: 4rem;
+    color:  hsl(232, 10%, 55%);
 }
+.allfeed img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.allfeed p{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    line-height: 24px;
+    font-weight: 600;
+    color: hsl(213, 9%, 39%);
+}
+.allfeed h3{
+    font-family: 'Fraunces', serif;
+    font-family: 900;
+    color: hsl(212, 27%, 19%);
+}
+.allfeed h4{
+     font-weight: 200;
+     padding-top: 1rem;
+}
+.images{
+    /* display: grid;
+    grid-template-columns: repeat(4,1fr); */
+}
+
 /* .feedback img{
     padding-top: 10rem;
     padding-bottom: 10rem;
