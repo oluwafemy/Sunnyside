@@ -232,5 +232,14 @@ h1{
        padding: 2rem;
         text-align: center;
     }
+    .fruit{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .para{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    
+    }
     
 }
