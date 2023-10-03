@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
+    scroll-behavior: smooth;
     /* font-family: 'Fraunces', serif; */
 }
 nav{
@@ -154,9 +155,18 @@ h1{
      padding-top: 1rem;
 }
 .images{
-    /* display: grid;
-    grid-template-columns: repeat(4,1fr); */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
 }
+.images img{
+    width: 100%;
+}
+.menu{
+    display: none;
+}
+
+    
 
 /* .feedback img{
     padding-top: 10rem;
@@ -199,3 +209,28 @@ h1{
     flex-direction: column;
     padding-top: 25rem;
 } */
+/* code for mobile responsiveness */
+@media screen and (max-width:1023px){
+    ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+        color: white;
+    }
+    nav{
+        padding: 2rem 1rem;
+    }
+    .container{
+        grid-template-columns: 1fr;
+    }
+    .egg{
+        order: 1;
+    }
+    .box{
+        order: 2;
+       padding: 2rem;
+        text-align: center;
+    }
+    
+}
