@@ -52,7 +52,7 @@ h1{
     padding-bottom: 15rem;
 }
 
- .container{
+.container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
  }
@@ -75,7 +75,8 @@ h1{
  }
  .cherry{
     background-image: url(images/desktop/image-graphic-design.jpg);
-    color: hsl(167, 40%, 24%);
+    color: hsl(167, 40%, 24%)
+
     
     
  }
@@ -165,7 +166,29 @@ h1{
 .menu{
     display: none;
 }
+footer{
+    background-color:rgb(125, 243, 243);
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
 
+.below a{
+    color: hsl(167, 40%, 24%);
+    text-align: center;
+    
+}
+.below ul{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    gap: 5rem;
+    font-size: 19px;
+    font-weight: 700;
+
+}
     
 
 /* .feedback img{
@@ -241,5 +264,14 @@ h1{
         padding-bottom: 3rem;
     
     }
+    .allfeed{
+        grid-template-columns: 1fr;
+        
+    }
+    .allfeed p{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    
     
 }
