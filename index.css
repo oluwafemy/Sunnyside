@@ -75,22 +75,17 @@ h1{
  }
  .cherry{
     background-image: url(images/desktop/image-graphic-design.jpg);
-    color: hsl(167, 40%, 24%)
-
-    
-    
+    color: hsl(167, 40%, 24%);  
  }
  .para{
     padding-top: 2rem;
     padding-bottom: 2rem;
     line-height: 24px;
-    font-size: 20px;
-       
+    font-size: 20px;      
  }
  .orange{
     background-image: url(images/desktop/image-photography.jpg);
-    color: hsl(198, 62%, 26%);
-    
+    color: hsl(198, 62%, 26%);   
  }
  .fruit{
     background-size: cover;
@@ -106,17 +101,14 @@ h1{
 .fruit h2{
     font-family: 'Fraunces', serif;
     font-weight: 900;
-    font-size: 2rem;
-  
+    font-size: 2rem; 
 }
 
 .feedback{
     background-color: white;
     padding: 6rem 4rem;
     text-align: center;
-
 }
-
 .feedback h2{
     color:  hsl(232, 10%, 55%);
     text-transform: uppercase;
@@ -170,14 +162,10 @@ footer{
     background-color:rgb(125, 243, 243);
     text-align: center;
     padding-top: 4rem;
-    padding-bottom: 4rem;
-    
+    padding-bottom: 4rem;   
 }
-
 .below a{
     color: hsl(167, 40%, 24%);
-    text-align: center;
-    
 }
 .below ul{
     display: flex;
@@ -187,51 +175,14 @@ footer{
     gap: 5rem;
     font-size: 19px;
     font-weight: 700;
-
+    opacity: 60%;
 }
-    
-
-/* .feedback img{
-    padding-top: 10rem;
-    padding-bottom: 10rem;
-    padding-left: 6rem;
-    padding-right: 6rem;
-    border-radius: 50%;
-} */
-
-
- /* .style h4{
-    font-family: 'Fraunces', serif;
-    font-size: 25px;
-    font-weight: 700;
-    font-size: 25px;
- } */
-
-/* beginning of fourthSection */
-/* .fourthSection{
-    background-image: url(images/desktop/image-graphic-design.jpg);
-    background-repeat: no-repeat;
-    background-position: left;
+.socialicon a{
+    color: hsl(167, 40%, 24%);
+    margin-right: 30px;
+    font-size: 30px;
 }
-.container3 h2{
-    font-family: 'Fraunces', serif;
-    font-size: 2rem;
-    color: hsl(212, 27%, 19%);
-    padding: 100px;
-    padding-bottom: 20px;
-}
-.container3 p{
-    padding: 30px;
-    color: gray;
-    line-height: 24px
 
-}
-.container3{
-    display:flex ;
-    justify-content: center;
-    flex-direction: column;
-    padding-top: 25rem;
-} */
 /* code for mobile responsiveness */
 @media screen and (max-width:1023px){
     ul{
